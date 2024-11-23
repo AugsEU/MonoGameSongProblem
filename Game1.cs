@@ -32,7 +32,7 @@ namespace SongProblem
 			mSongAsSoundEffect = Content.Load<SoundEffect>("SongAsSFX");
 
 			// Change me to see how MediaPlayer and SoundEffect differ.
-			const bool playSongAsSFX = true;
+			const bool playSongAsSFX = false;
 
 			if(playSongAsSFX)
 			{
